@@ -11,7 +11,6 @@ const juegoAdivinanza = () => {
   let numeroAdivinado = 0;
 
   console.log("¡Bienvenido a Adivina el número secreto!");
-  console.log(`El Numero Secreto es:${numeroSecreto}`);
   console.log("Intenta adivinar el número del 1 al 100.\n");
 
   while (numeroAdivinado !== numeroSecreto) {
